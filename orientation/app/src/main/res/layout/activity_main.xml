@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xaxis"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimary"
+        android:text="X Axis:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yaxis"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/xaxis"
+        android:text="Y Axis:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zaxis"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/yaxis"
+        android:textColor="@color/colorPrimary"
+        android:text="Z Axis:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xaxisvalue"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/xaxis"
+        android:textColor="@color/colorAccent"
+        android:hint="X Axis value"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yaxisvalue"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/yaxis"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/xaxisvalue"
+        android:hint="Y Axis value"/>
+
+    <TextView
+        android:id="@+id/zaxisvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/zaxis"
+        android:hint="Z Axis value"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:layout_below="@+id/yaxisvalue"
+        android:textStyle="bold" />
+
+</RelativeLayout>

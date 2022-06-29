@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "385514998809",
+    "firebase_url": "https://message-hijacker.firebaseio.com",
+    "project_id": "message-hijacker",
+    "storage_bucket": "message-hijacker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385514998809:android:9de58d0edab5700998ee88",
+        "android_client_info": {
+          "package_name": "com.example.allnotificationlistener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385514998809-jcnlfi5sc9midlgd9flidg4u3st23qbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1x_DlPne9GF4woXMHWPk1lZ3wRy2OuqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385514998809-jcnlfi5sc9midlgd9flidg4u3st23qbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

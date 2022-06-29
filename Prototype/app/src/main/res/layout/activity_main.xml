@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="17dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/registrationform"
+                android:text="Registration Form"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/patientnamefirst"
+                android:hint="First Name"
+                android:layout_below="@id/registrationform"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/patientnamelast"
+                android:hint="Last Name"
+                android:layout_below="@+id/patientnamefirst"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DOB"
+                android:layout_below="@+id/patientnamelast"
+                android:hint="DOB"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/DOB">
+
+
+            </Spinner>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:layout_below="@+id/gender"
+                android:hint="Address"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+
+                />
+            <Spinner
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/address">
+
+            </Spinner>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/zipCode"
+                android:layout_below="@+id/city"
+                android:inputType="number"
+                android:hint="Zip Code"
+                android:maxLength="6"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phonenumber"
+                android:layout_below="@+id/zipCode"
+                android:inputType="number"
+                android:hint="Phone number"
+                android:maxLength="10"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/phonenumber"
+                android:hint="e-Mail"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/uploadbtn"
+                android:layout_below="@id/email"
+                android:text="Register Patient"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/printqrcode"
+                android:layout_below="@+id/uploadbtn"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:text="print op card"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/patientdetails"
+                android:layout_below="@+id/printqrcode"
+                android:layout_centerHorizontal="true"
+                android:text="Show Patient Details"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

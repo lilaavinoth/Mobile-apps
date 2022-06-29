@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SOS_Activity">
+
+    <TextView
+        android:id="@+id/acceptedpeople"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/green"
+        android:fontFamily="@font/notobold"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:text="View accepted people's location"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+
+
+        <RelativeLayout
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/acceptedpeople"
+            android:background="@drawable/normal">
+
+
+            <ImageView
+                android:id="@+id/alertimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/alert" />
+
+            <TextView
+                android:id="@+id/alerted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alertimg"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/notobold"
+                android:text="Alerted"
+                android:paddingLeft="15dp"
+                android:textColor="@color/noti"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/alertedfetcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/alerted"
+                android:text="Fetching"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/notobold"
+                android:paddingLeft="15dp"
+                android:textColor="@color/accept"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@id/acceptedpeople"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/accept"
+                android:id="@+id/acceptimg"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/accepted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acceptimg"
+                android:fontFamily="@font/notobold"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="15dp"
+                android:text="Accepted"
+                android:textColor="@color/noti"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fetcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accepted"
+                android:text="Fetching"
+                android:fontFamily="@font/notobold"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/accept"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/stopalert"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="@font/notobold"
+            android:text="Stop alert"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

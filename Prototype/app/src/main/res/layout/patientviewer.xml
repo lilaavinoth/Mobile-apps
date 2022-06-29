@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstnamev"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="First Name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastnamev"
+            android:layout_toRightOf="@id/firstnamev"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Last Name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/agev"
+            android:layout_below="@id/lastnamev"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="DOB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderv"
+            android:layout_below="@id/agev"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Gender"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressv"
+            android:layout_below="@id/genderv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Address"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityv"
+            android:layout_below="@id/addressv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="City"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zipv"
+            android:layout_below="@id/cityv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Zipcode"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phonev"
+            android:layout_below="@id/zipv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Phone Number"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailv"
+            android:layout_below="@id/phonev"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Email"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

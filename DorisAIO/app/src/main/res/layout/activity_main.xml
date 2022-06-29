@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bike"
+            android:text="Bike control"
+            android:layout_gravity="center"
+            android:paddingHorizontal="50dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home"
+            android:text="Home control"
+            android:layout_toRightOf="@+id/bike"
+            android:layout_gravity="center"
+            android:paddingHorizontal="50dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mic"
+            android:text="Home microphone"
+            android:layout_below="@+id/home"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/camera"
+            android:text="Home Camera"
+            android:layout_toRightOf="@+id/mic"
+            android:layout_below="@id/home"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main"
+            android:text="Main Computer"
+            android:layout_below="@+id/mic"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/laptop"
+            android:text="Msi laptop"
+            android:layout_below="@id/camera"
+            android:layout_toRightOf="@+id/main"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/speaker"
+            android:text="home speakers"
+            android:layout_below="@id/main"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sec"
+            android:text="home security system"
+            android:layout_below="@+id/laptop"
+            android:layout_toRightOf="@+id/speaker"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doris"
+            android:text="Doris ai"
+            android:layout_below="@id/sec"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vpn"
+            android:text="vpn secure network"
+            android:layout_below="@+id/doris"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acc"
+            android:text="access revoker"
+            android:layout_below="@+id/doris"
+            android:layout_toRightOf="@+id/vpn"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fam"
+            android:text="family tracker"
+            android:layout_below="@id/vpn"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comlit"
+            android:text="computer desk lighting"
+            android:layout_below="@+id/vpn"
+            android:layout_toRightOf="@id/fam"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/server"
+            android:text="doris server access"
+            android:layout_below="@+id/fam"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/women"
+            android:text="women's safety server access"
+            android:layout_below="@+id/server"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/regedi"
+            android:text="reg-edt"
+            android:layout_below="@+id/women"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nltk"
+            android:text="current machine learning dataset"
+            android:layout_below="@+id/regedi"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tesk"
+            android:text="pender trek"
+            android:layout_below="@+id/nltk"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/engine"
+            android:text="nltk engine"
+            android:layout_below="@+id/nltk"
+            android:layout_toRightOf="@+id/tesk"
+            android:layout_gravity="center"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

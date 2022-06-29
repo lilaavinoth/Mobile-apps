@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Trip_Data">
+
+
+        <!--    <androidx.recyclerview.widget.RecyclerView-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:id="@+id/recyclerTripdata"-->
+        <!--        android:padding="4dp"-->
+        <!--        android:clipToPadding="false"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track Time"
+            android:id="@+id/tracktime"
+            android:textSize="25dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/tracktimedata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude"
+            android:id="@+id/lat"
+            android:textSize="25dp"
+            android:layout_below="@+id/tracktime"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude"
+            android:id="@+id/lon"
+            android:textSize="25dp"
+            android:layout_below="@+id/lat"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ignition"
+            android:id="@+id/ignition"
+            android:textSize="25dp"
+            android:layout_below="@+id/lon"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"
+            android:id="@+id/speed"
+            android:textSize="25dp"
+            android:layout_below="@+id/ignition"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odometer"
+            android:id="@+id/odo"
+            android:textSize="25dp"
+            android:layout_below="@+id/speed"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direction"
+            android:id="@+id/direction"
+            android:textSize="25dp"
+            android:layout_below="@+id/odo"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS Status"
+            android:id="@+id/gps"
+            android:textSize="25dp"
+            android:layout_below="@+id/direction"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lights"
+            android:id="@+id/light"
+            android:textSize="25dp"
+            android:layout_below="@+id/gps"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engine Temp"
+            android:id="@+id/enginetemp"
+            android:textSize="25dp"
+            android:layout_below="@+id/light"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tire Pressure"
+            android:id="@+id/tirepressure"
+            android:textSize="25dp"
+            android:layout_below="@+id/enginetemp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theft Detection"
+            android:id="@+id/theftdec"
+            android:textSize="25dp"
+            android:layout_below="@+id/tirepressure"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Window"
+            android:id="@+id/window"
+            android:textSize="25dp"
+            android:layout_below="@+id/theftdec"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuel"
+            android:id="@+id/fuel"
+            android:textSize="25dp"
+            android:layout_below="@+id/window"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accident"
+            android:id="@+id/accident"
+            android:textSize="25dp"
+            android:layout_below="@+id/fuel"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/dark"
+            />
+
+        <!--    <Button-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Locate Car"-->
+        <!--        android:id="@+id/lc"-->
+        <!--        android:layout_below="@+id/window"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:layout_marginTop="15dp"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/tracktimedata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/latdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/latdata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/londata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/londata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/ignitiondata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/ignitiondata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/speeddata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/speeddata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/ododata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/ododata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/dirdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/dirdata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/gpsdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/gpsdata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/lightdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/lightdata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/enginedata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/enginedata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/tirepressuredata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/tirepressuredata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/theftdecdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/theftdecdata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/windowdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/windowdata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/fueldata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Data absent"
+            android:textSize="25dp"
+            android:layout_below="@+id/fueldata"
+            android:layout_marginTop="12dp"
+            android:id="@+id/accidentdata"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/dark"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Message Viewer</string>
+    <string name="tab_text_1">Whatsapp</string>
+    <string name="tab_text_2">Instagram</string>
+    <string name="tab_text_3">Facebook</string>
+</resources>

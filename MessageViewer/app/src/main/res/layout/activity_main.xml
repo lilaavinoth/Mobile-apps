@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Whatsapp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/whatsappbutton"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/facebookbutton"
+        android:layout_below="@+id/whatsappbutton"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/instagrambutton"
+        android:layout_below="@+id/facebookbutton"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realtime"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/realtime"
+        android:layout_below="@+id/instagrambutton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recieved Calls"
+        android:id="@+id/reccall"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/realtime"/>
+
+
+
+</RelativeLayout>
+

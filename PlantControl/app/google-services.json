@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "196451082136",
+    "firebase_url": "https://plant-control-233b8.firebaseio.com",
+    "project_id": "plant-control-233b8",
+    "storage_bucket": "plant-control-233b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196451082136:android:a24b9dba973535771755ed",
+        "android_client_info": {
+          "package_name": "com.example.plantcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196451082136-6o1u7as08op1qfgq8no6oq4iqk31f841.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKzIo2-qdm5iuppfmDwsswqqVpLJ07NBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196451082136-6o1u7as08op1qfgq8no6oq4iqk31f841.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

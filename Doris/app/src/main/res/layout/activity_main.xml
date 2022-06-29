@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/kong"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/videotalkback"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mic"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:drawableTop="@drawable/ic_baseline_mic_24"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingbtn"
+        android:text="setting"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dsfd"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mic"
+        android:text="language"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:id="@+id/rec_mess"
+        android:text="Recognised Message"
+        android:textColor="@color/mycolor"
+        android:textSize="25dp"
+        android:layout_above="@+id/mic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/translated_mess"
+        android:text="Reply Message"
+        android:textColor="@color/mycolor"
+        android:textSize="25dp"
+        android:layout_below="@+id/dsfd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realtime data"
+        android:id="@+id/realtime"
+        />
+
+
+
+</RelativeLayout>

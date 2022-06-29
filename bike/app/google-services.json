@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "569213163930",
+    "firebase_url": "https://bike-cbb93.firebaseio.com",
+    "project_id": "bike-cbb93",
+    "storage_bucket": "bike-cbb93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569213163930:android:d96c9167b2a85047e40223",
+        "android_client_info": {
+          "package_name": "com.example.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569213163930-i4s9cejp04i9evj4luj9se8bkpjd5ikq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5aQYLQTP-Wnl4IA0kuO936UO8lZexs7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569213163930-i4s9cejp04i9evj4luj9se8bkpjd5ikq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

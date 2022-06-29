@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etTitle"/>
+
+    <Button
+        android:id="@+id/SirenStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etToken"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/etToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Token"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btnSend"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etMessage"/>
+</RelativeLayout>
